@@ -1,0 +1,381 @@
+@import url("https://fonts.googleapis.com/css2?family=Bona+Nova&family=Tourney:wght@100&family=Ubuntu:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bona+Nova&family=Tourney:wght@100&family=Ubuntu:wght@300&display=swap");
+body {
+  background-color: #aaaaaa;
+}
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+#Grid {
+  display: grid;
+  grid-template-columns: 1fr 3fr 1fr;
+}
+/* Logo */
+.about-section {
+  background-color: #f0f0ee73;
+  text-align: center;
+  color: white;
+}
+.about-section a img {
+  width: 20%;
+}
+/* content */
+.marvel-web-series {
+  background-color: #f0f0ee73;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  /* remove height */
+  height: 100vh;
+}
+.marvel-web-series .series {
+  background-color: #9799e361;
+  border-radius: 12px;
+  padding-bottom: 1%;
+  box-shadow: 15px 15px 10px 0px rgba(12, 12, 12, 0.4);
+  margin: 1%;
+  position: inherit;
+  width: 10vw;
+}
+.marvel-web-series .series a {
+  color: black;
+  text-decoration: none;
+  font-family: "Ubuntu", sans-serif;
+}
+.marvel-web-series .series a img {
+  width: 100%;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+.title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 80%;
+}
+.marvel-web-series .series:hover {
+  transform: scale(1.05);
+}
+/*Box1*/
+#Box1 {
+  background-color: #f0f0ee73;
+  padding: 1%;
+}
+
+
+section .container .title {
+  background-color: black;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  font-size: 250%;
+  opacity: 0.8;
+  padding: 5%;
+  color: #b9abab;
+}
+
+section .container #container-up {
+  border-top-left-radius: 13px;
+  border-top-right-radius: 13px;
+}
+
+section .container #container-down {
+  border-bottom-left-radius: 13px;
+  border-bottom-right-radius: 13px;
+  background-color: black;
+  color: #b9abab;
+
+  font-size: 125%;
+  font-family: "Bona Nova", serif, Arial;
+  padding: 3%;
+  opacity: 0.8;
+}
+/* IMDB box*/
+section #IMDB {
+  margin: 0px auto;
+  width: 100%;
+}
+
+section #IMDB a {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 10px;
+  text-decoration: none;
+  background-color: black;
+  margin: 1% auto;
+}
+section #IMDB img {
+  width: 27%;
+  margin: 2%;
+  border-radius: 13px;
+}
+section #IMDB .content {
+  font-family: "Ubuntu", sans-serif, Arial;
+  color: white;
+  padding: 5%;
+}
+
+section #IMDB .content h5 {
+  margin: 2% 0px;
+  font-size: 140%;
+}
+
+section #IMDB .content #genres {
+  margin-bottom: 1%;
+}
+
+section #IMDB .content #SBox {
+  display: flex;
+  align-items: center;
+}
+
+section #IMDB .content img {
+  width: 8%;
+}
+
+section #IMDB .content #down {
+  margin-top: 3%;
+}
+section #IMDB .content #source #SIMDB {
+  text-decoration: underline;
+  color: #5151a5;
+}
+
+section #IMDB .content #source {
+  margin-top: 5%;
+}
+
+/* Container-2*/
+section #container-2 {
+  background-color: rgb(249 249 249);
+  border-radius: 12px;
+  font-size: 130%;
+  font-family: "Bona Nova", serif;
+  padding: 1%;
+}
+
+section #container-2 #content-2 {
+  text-align: center;
+  color: #625341;
+  padding: 1%;
+}
+section #container-2 h1 {
+  font-family: "Tourney", cursive, Arial;
+  color: red;
+  text-decoration: underline;
+  font-size: 130%;
+  margin: 0px 5%;
+  padding: 2%;
+}
+
+section #container-2 li {
+  padding: 1%;
+  margin: 0px 5%;
+  font-size: 80%;
+}
+
+section #container-2 p {
+  padding: 0% 3%;
+  font-size: 100%;
+}
+
+section #container-2 #SeriesClip {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+section #container-2 #SeriesClip .loki-img {
+  width: 31%;
+  border-radius: 20px;
+  box-shadow: 10px 10px 8px 0px rgba(12, 12, 12, 0.4);
+  margin: 1%;
+}
+
+/* Download section */
+section #container-2 #download-sign {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #bcaeae;
+  padding: 1%;
+  border-radius: 10px;
+  margin: 1% 0px;
+}
+
+section #container-2 #download-sign .DownloadFile {
+  color: white;
+  background-color: blue;
+  padding: 1%;
+  border-radius: 80px;
+}
+
+section #container-2 #download-sign #DownloadBox {
+  font-family: "Times New Roman", Times, serif, cursive;
+  padding: 1%;
+}
+
+section #container-2 #download-sign #DownloadBox .element {
+  text-align: center;
+  padding: 2%;
+}
+
+section #container-2 #download-sign #DownloadBox #PDisk {
+  display: block;
+  text-align: center;
+  margin: auto;
+  width: 90%;
+}
+
+section #container-2 #download-sign #DownloadBox #PDiskSeasons,
+#RacatySeasons,
+#DropGalaxySeasons {
+  display: none;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+section #container-2 #download-sign #DownloadBox .btn, section #container-2 #download-sign #DownloadBox .seasons {
+  font-family: "Ubuntu", sans-serif;
+  display: block;
+  margin: auto;
+  background-color: #3490ff;
+  cursor: pointer;
+  color: white;
+  width: 20%;
+  height: 15%;
+  font-size: 120%;
+  border-radius: 50px;
+  outline: none;
+}
+
+section #container-2 #download-sign #DownloadBox .seasons {
+  margin-top: 2%;
+  background-color: #179d38;
+}
+section #container-2 #download-sign #DownloadBox .seasons:hover, section #container-2 #download-sign #DownloadBox .btn:hover {
+  opacity: .9;
+  transform: scale(1.1);
+}
+section #container-2 #download-sign #DownloadBox .seasons a {
+  color: white;
+  text-decoration: none;
+}
+/* Report */
+#anotherBox {
+  margin: 1%;
+  border: 2px solid #4d3e3e;
+  width: 50%;
+  border-radius: 6px;
+}
+#ContactBox {
+  flex-direction: column;
+  border: 2px solid #c4baba;
+  cursor: pointer;
+  margin: 2%;
+}
+
+#ContactBox #contact {
+  font-family: "Ubuntu", sans-serif, Arial;
+  display: none;
+  flex-direction: column;
+  justify-content: center;
+}
+#ContactBox #contact .row {
+  margin: 1.3%;
+}
+#ContactBox #contact input, textarea {
+  display: block;
+  width: 50%;
+  margin: 0px 50%;
+  margin-top: -3.5%;
+  padding: 1%;
+  font-size: 85%;
+  position: inherit;
+}
+#ContactBox #contact .btn {
+  margin-top: 2%;
+  padding: 1%;
+  width: 25%;
+  margin: 1%;
+  outline: none;
+}
+#Quality {
+  margin: 1%;
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+  font-size: 100%;
+  padding: 1%;
+  height: 90vh;
+}
+#Quality h2 {
+  display: flex;
+  flex-direction: column;
+  font-family: 'Bona Nova', serif;
+  color: red;
+  margin: 0px 6%;
+  cursor: pointer;
+}
+#Quality h2:hover {
+  transform: scale(1.01);
+}
+#Quality h2 .Episodes {
+  font-family: 'Ubuntu', sans-serif;
+  width: 100%;
+  font-size: 100%;
+  background-color: #3490ffa1;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 20%;
+}
+#Quality h2 .EpisodeBox {
+  position: relative;
+  display: none;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+#Quality h2 .EpisodeBox a {
+  text-decoration: none;
+  color: white;
+}
+/* footer */
+#foot {
+  background-color: #4e5b60;
+  padding: 1%;
+}
+#foot #FootContainer {
+  width: 70%;
+  margin: auto;
+  text-align: center;
+}
+#foot #FootContainer h1 {
+  font-size: 180%;
+}
+#foot #FootContainer ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0% 25%;
+}
+#foot #FootContainer ul li {
+  list-style: none;
+}
+#foot #FootContainer ul li a {
+  text-decoration: none;
+}
+#foot #FootContainer ul li a img {
+  width: 40%;
+  filter: invert(5%);
+}
+#foot #FootContainer ul li a img:hover {
+  filter: invert(90%);
+}

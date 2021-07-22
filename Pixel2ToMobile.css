@@ -1,0 +1,70 @@
+#Grid {
+  grid-template-columns: 0.1fr 3fr 0.1fr;
+}
+.title {
+  font-size: 65%;
+}
+/*Box1*/
+section .container .title {
+  font-size: 110%;
+}
+/* IMDB box*/
+section #IMDB {
+  width: 95%;
+}
+section #IMDB .content #star {
+  margin: 0px -100%;
+}
+section #IMDB a {
+  border-radius: 6px;
+}
+section #IMDB img {
+  border-radius: 6px;
+}
+/* Container-2*/
+section #container-2 {
+  font-size: 95%;
+}
+section #container-2 h1 {
+  font-size: 90%;
+}
+section #container-2 li {
+  font-size: 55%;
+}
+section #container-2 p {
+  font-size: 55%;
+}
+section #container-2 #SeriesClip .loki-img {
+  border-radius: 8px;
+
+}
+
+/* Download section */
+section #container-2 #download-sign #DownloadBox .btn {
+  width: 35%;
+}
+
+section #container-2 #download-sign #DownloadBox .seasons {
+  width: 35%;
+}
+section #container-2 #download-sign .DownloadFile {
+  font-size: 65%;
+}
+/* Report */
+#anotherBox {
+  width: 95%;
+  margin: 2%;
+}
+#ContactBox #contact .row {
+  margin: 4%;
+}
+#ContactBox #contact .btn {
+  margin: 4%;
+}
+/* footer */
+#foot #FootContainer h1 {
+  font-size: 160%;
+}
+#foot #FootContainer ul {
+  margin: 0% 15%;
+}

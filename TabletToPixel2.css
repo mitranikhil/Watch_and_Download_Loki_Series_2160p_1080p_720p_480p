@@ -1,0 +1,149 @@
+#Grid {
+  grid-template-columns: 0.1fr 3fr 0.1fr;
+}
+.about-section a img {
+  width: 25%;
+}
+/* content */
+.marvel-web-series {
+  border-radius: 4px;
+  height: 90vh;
+}
+.marvel-web-series .series {
+  border-radius: 8px;
+  width: 30vw;
+}
+.marvel-web-series .series a img {
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+}
+.title {
+  font-size: 76%;
+}
+.marvel-web-series .series:hover {
+  width: 31vw;
+}
+/*Box1*/
+
+section .container .title {
+  font-size: 126%;
+}
+
+section .container #container-up {
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+
+section .container #container-down {
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+  font-size: 38%;
+}
+/* IMDB box*/
+section #IMDB {
+  width: 97%;
+}
+
+section #IMDB a {
+  flex-direction: column;
+  border-radius: 8px;
+}
+section #IMDB img {
+  margin: auto;
+  display: block;
+  width: 90%;
+  border-radius: 8px;
+}
+section #IMDB .content {
+  margin: 1%;
+  font-size: 90%;
+}
+section #IMDB .content #SBox {
+  margin-left: -65%;
+}
+section #IMDB .content #star {
+  margin-left: -300%;
+}
+section #IMDB .content h5 {
+  font-size: 80%;
+}
+/* Container-2*/
+section #container-2 {
+  border-radius: 8px;
+  font-size: 100%;
+}
+section #container-2 h1 {
+  font-size: 100%;
+}
+section #container-2 li {
+  font-size: 60%;
+}
+section #container-2 p {
+  padding: 1%;
+  font-size: 60%;
+}
+section #container-2 #SeriesClip .loki-img {
+  margin: 2% 1%;
+  width: 95%;
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px 0px rgba(12, 12, 12, 0.4);
+}
+
+/* Download section */
+section #container-2 #download-sign {
+  border-radius: 6px;
+}
+section #container-2 #download-sign .DownloadFile {
+  font-size: 70%;
+}
+
+section #container-2 #download-sign #DownloadBox #PDisk {
+  width: 100%;
+}
+section #container-2 #download-sign #DownloadBox .element {
+  font-size: 70%;
+}
+section #container-2 #download-sign #DownloadBox .btn {
+  width: 30%;
+  font-size: 110%;
+}
+
+section #container-2 #download-sign #DownloadBox .seasons {
+  width: 30%;
+  font-size: 110%;
+}
+section #container-2 #download-sign #DownloadBox .seasons:hover,
+section #container-2 #download-sign #DownloadBox .btn:hover {
+  opacity: 0.8;
+
+}
+/* Report */
+#anotherBox {
+  width: 95%;
+  border-radius: 4px;
+}
+#ContactBox #contact .row {
+  margin: 5%;
+}
+#ContactBox #contact input,
+textarea {
+  width: 50%;
+  margin: 0px 50%;
+  margin-top: -5%;
+  padding: 1%;
+  font-size: 65%;
+}
+#ContactBox #contact .btn {
+  margin: 5%;
+}
+
+/* footer */
+#foot #FootContainer h1 {
+  font-size: 200%;
+}
+#foot #FootContainer ul {
+  margin: 0% 20%;
+}
+#foot #FootContainer .ftc {
+  font-size: 70%;
+}

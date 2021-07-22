@@ -1,0 +1,134 @@
+.about-section a img {
+  width: 20%;
+}
+/* content */
+.marvel-web-series {
+  border-radius: 6px;
+  height: 83vh;
+}
+.marvel-web-series .series {
+  border-radius: 10px;
+  box-shadow: 10px 10px 5px 0px rgba(12, 12, 12, 0.4);
+  width: 20vw;
+}
+.marvel-web-series .series a img {
+  border-top-left-radius: 6px;
+  border-top-right-radius: 6px;
+}
+.title {
+  font-size: 91%;
+}
+.marvel-web-series .series:hover {
+  width: 21vw;
+}
+/*Box1*/
+
+section .container .title {
+  font-size: 230%;
+}
+
+section .container #container-up {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+section .container #container-down {
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  font-size: 63%;
+}
+/* IMDB box*/
+section #IMDB {
+  width: 95%;
+  height: 30%;
+}
+
+section #IMDB a {
+  border-radius: 8px;
+}
+section #IMDB img {
+  width: 30%;
+  border-radius: 10px;
+}
+
+section #IMDB .content h5 {
+  font-size: 86%;
+}
+/* Container-2*/
+section #container-2 {
+  border-radius: 10px;
+  font-size: 120%;
+}
+section #container-2 h1 {
+  font-size: 125%;
+}
+section #container-2 li {
+  font-size: 75%;
+}
+section #container-2 p {
+  padding: 1% 3%;
+  font-size: 80%;
+}
+section #container-2 #SeriesClip .loki-img {
+  width: 48%;
+  border-radius: 15px;
+  box-shadow: 8px 8px 5px 0px rgba(12, 12, 12, 0.4);
+}
+
+/* Download section */
+section #container-2 #download-sign {
+  border-radius: 8px;
+}
+section #container-2 #download-sign .DownloadFile {
+  font-size: 80%;
+}
+
+section #container-2 #download-sign #DownloadBox .btn, section #container-2 #download-sign #DownloadBox .seasons {
+  width: 25%;
+  font-size: 120%;
+  border-radius: 50px;
+}
+
+section #container-2 #download-sign #DownloadBox .seasons {
+  margin-top: 2%;
+  background-color: #179d38;
+}
+section #container-2 #download-sign #DownloadBox .seasons:hover,
+section #container-2 #download-sign #DownloadBox .btn:hover {
+  opacity: 0.8;
+}
+/* Report */
+#anotherBox {
+  width: 60%;
+  border-radius: 6px;
+}
+#ContactBox #contact .row {
+  margin: 3%;
+}
+#ContactBox #contact input, textarea {
+  width: 50%;
+  margin: 0px 50%;
+  margin-top: -6.5%;
+  padding: 1%;
+  font-size: 75%;
+}
+#ContactBox #contact .btn {
+  margin: 3%;
+}
+#Quality {
+  flex-wrap: wrap;
+}
+/* footer */
+#foot #FootContainer {
+  width: 100%;
+}
+#foot #FootContainer ul {
+  margin: 0% 25%;
+}
+#foot #FootContainer ul li a img {
+  width: 50%;
+  filter: invert(5%);
+}
+#foot #FootContainer .ftc {
+  font-size: 90%;
+}
